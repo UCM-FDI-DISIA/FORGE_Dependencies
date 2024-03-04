@@ -6,10 +6,12 @@ cls
 :: Nos guardamos el nombre del archivo que vamos a compilar por cada dependencia (por defecto, los vamos a llamar build.bat)
 set BAT=build.bat
 
-cd .\dependencies\
-
 :: Entramos a la carpeta de Lua, ejecutamos su build.bat y volvemos
 cd .\Lua\
+call %BAT%
+cd ..
+
+cd .\Ogre\
 call %BAT%
 cd ..
 
