@@ -7,20 +7,22 @@ cmake -S %OGRESRC% -B %BUILDDIR% -DOGRE_BUILD_COMPONENT_BITES:BOOL="0" -DOGRE_IN
 
 msbuild %BUILDDIR%\OGRE.sln /p:configuration=Debug
 msbuild %BUILDDIR%\OGRE.sln /p:configuration=Release
-COPY /y %BUILDDIR%\bin\debug\Codec_STBI_d.dll %BIN%
-COPY /y %BUILDDIR%\bin\debug\OgreMain_d.dll %BIN%
-COPY /y %BUILDDIR%\bin\debug\RenderSystem_Direct3D11_d.dll %BIN%
-COPY /y %BUILDDIR%\bin\debug\zlib.dll %BIN%
-COPY /y %BUILDDIR%\bin\debug\OgreRTShaderSystem_d.dll %BIN%
-COPY /y %BUILDDIR%\bin\debug\Plugin_ParticleFX_d.dll %BIN%
-COPY /y %BUILDDIR%\bin\debug\RenderSystem_GL_d.dll %BIN%
+COPY /y %BINDIRECTION%\bin\debug\Codec_STBI_d.dll %BIN%
+COPY /y %BINDIRECTION%\bin\debug\OgreMain_d.dll %BIN%
+COPY /y %BINDIRECTION%\bin\debug\RenderSystem_Direct3D11_d.dll %BIN%
+COPY /y %BINDIRECTION%\bin\debug\zlib.dll %BIN%
+COPY /y %BINDIRECTION%\bin\debug\OgreRTShaderSystem_d.dll %BIN%
+COPY /y %BINDIRECTION%\bin\debug\Plugin_ParticleFX_d.dll %BIN%
+COPY /y %BINDIRECTION%\bin\debug\RenderSystem_GL_d.dll %BIN%
 
-COPY /y %BUILDDIR%\bin\release\Codec_STBI.dll %BIN%
-COPY /y %BUILDDIR%\bin\release\OgreMain.dll %BIN%
-COPY /y %BUILDDIR%\bin\release\RenderSystem_Direct3D11.dll %BIN%
-COPY /y %BUILDDIR%\bin\release\OgreXMLConverter.exe %BIN%
-COPY /y %BUILDDIR%\bin\release\OgreMeshUpgrader.exe %BIN%
-COPY /y %BUILDDIR%\bin\release\SDL2.dll %BIN%
-COPY /y %BUILDDIR%\bin\release\OgreRTShaderSystem.dll %BIN%
-COPY /y %BUILDDIR%\bin\release\Plugin_ParticleFX.dll %BIN%
-COPY /y %BUILDDIR%\bin\release\RenderSystem_GL.dll %BIN%
+COPY /y %BINDIRECTION%\bin\release\Codec_STBI.dll %BIN%
+COPY /y %BINDIRECTION%\bin\release\OgreMain.dll %BIN%
+COPY /y %BINDIRECTION%\bin\release\RenderSystem_Direct3D11.dll %BIN%
+COPY /y %BINDIRECTION%\bin\release\OgreXMLConverter.exe %BIN%
+COPY /y %BINDIRECTION%\bin\release\OgreMeshUpgrader.exe %BIN%
+COPY /y %BINDIRECTION%\bin\release\SDL2.dll %BIN%
+COPY /y %BINDIRECTION%\bin\release\OgreRTShaderSystem.dll %BIN%
+COPY /y %BINDIRECTION%\bin\release\Plugin_ParticleFX.dll %BIN%
+COPY /y %BINDIRECTION%\bin\release\RenderSystem_GL.dll %BIN%
+del /s /q %BUILDDIR%\bullet3-3.25
+
