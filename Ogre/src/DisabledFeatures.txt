@@ -1,0 +1,8 @@
++ freeimage: Support for commonly used graphics image formats <http://freeimage.sourceforge.net>
++ cg: C for graphics shader language <http://developer.nvidia.com/object/cg_toolkit.html>
++ Vulkan SDK: Vulkan RenderSystem, glslang Plugin. Alternatively use system packages <https://vulkan.lunarg.com/>
++ OpenEXR: Load High dynamic range images <http://www.openexr.com/>
++ Python: Language bindings to use OGRE from Python <http://www.python.org/>
++ SWIG: Language bindings (Python, Java, C#) for OGRE <http://www.swig.org/>
++ zlib: Simple data compression library <http://www.zlib.net>
++ Assimp: Needed for the AssimpLoader Plugin <https://www.assimp.org/>

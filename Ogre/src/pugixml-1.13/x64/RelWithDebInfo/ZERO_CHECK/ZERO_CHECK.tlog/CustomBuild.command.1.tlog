@@ -1,0 +1,10 @@
+^C:\USERS\PEDRO\DOCUMENTS\GITHUB\FORGE_DEPENDENCIES\OGRE\SRC\PUGIXML-1.13\CMAKEFILES\D6AEB5331B3F9B65E9F59D46D79C413B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/pugixml-1.13 -BC:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/pugixml-1.13 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/pugixml-1.13/pugixml.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

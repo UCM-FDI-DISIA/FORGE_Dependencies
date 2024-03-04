@@ -1,0 +1,9 @@
+libdir=C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/Dependencies/lib
+includedir=C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/Dependencies/include
+
+Name: Assimp
+Description: Import various well-known 3D model formats in an uniform manner.
+Version: 5.2.4
+Libs: -L${libdir} -lassimp
+Libs.private:  
+Cflags: -I${includedir}

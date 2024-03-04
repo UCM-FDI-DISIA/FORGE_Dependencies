@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\pedro\Documents\GitHub\FORGE_Dependencies\Ogre\src\freetype-2.13.0\objs\CMakeFiles\ca07c233b7d6f1491f0deb4803728c5a\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{01ACA0F1-2C07-3CE7-89FF-0D006744BA8C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

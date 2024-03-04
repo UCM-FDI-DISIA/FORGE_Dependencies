@@ -1,0 +1,5 @@
+C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/freetype-2.13.0/objs/CMakeFiles/freetype.dir
+C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/freetype-2.13.0/objs/CMakeFiles/PACKAGE.dir
+C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/freetype-2.13.0/objs/CMakeFiles/INSTALL.dir
+C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/freetype-2.13.0/objs/CMakeFiles/ALL_BUILD.dir
+C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/freetype-2.13.0/objs/CMakeFiles/ZERO_CHECK.dir

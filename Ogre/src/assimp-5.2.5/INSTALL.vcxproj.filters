@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\pedro\Documents\GitHub\FORGE_Dependencies\Ogre\src\assimp-5.2.5\CMakeFiles\442de024b1d82d43f0b7e0194e9f49ee\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{174B3184-0D3C-32CB-A9DA-76ECB20FD7D4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

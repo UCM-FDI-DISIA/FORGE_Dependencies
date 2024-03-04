@@ -1,0 +1,10 @@
+C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/assimp-5.2.5/CMakeFiles/uninstall.dir
+C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/assimp-5.2.5/CMakeFiles/UpdateAssimpLibsDebugSymbolsAndDLLs.dir
+C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/assimp-5.2.5/CMakeFiles/INSTALL.dir
+C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/assimp-5.2.5/CMakeFiles/ALL_BUILD.dir
+C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/assimp-5.2.5/CMakeFiles/ZERO_CHECK.dir
+C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/assimp-5.2.5/contrib/zlib/CMakeFiles/zlibstatic.dir
+C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/assimp-5.2.5/contrib/zlib/CMakeFiles/INSTALL.dir
+C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/assimp-5.2.5/contrib/zlib/CMakeFiles/ALL_BUILD.dir
+C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/assimp-5.2.5/code/CMakeFiles/assimp.dir
+C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/assimp-5.2.5/code/CMakeFiles/INSTALL.dir

@@ -1,0 +1,8 @@
+C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/Dependencies/lib/pugixml.lib
+C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/Dependencies/lib/cmake/pugixml/pugixml-targets.cmake
+C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/Dependencies/lib/cmake/pugixml/pugixml-targets-relwithdebinfo.cmake
+C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/Dependencies/lib/cmake/pugixml/pugixml-config-version.cmake
+C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/Dependencies/lib/cmake/pugixml/pugixml-config.cmake
+C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/Dependencies/lib/pkgconfig/pugixml.pc
+C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/Dependencies/include/pugiconfig.hpp
+C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/Dependencies/include/pugixml.hpp

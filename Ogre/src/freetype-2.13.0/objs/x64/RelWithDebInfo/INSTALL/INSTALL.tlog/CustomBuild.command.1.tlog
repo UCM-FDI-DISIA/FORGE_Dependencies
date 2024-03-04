@@ -1,0 +1,10 @@
+^C:\USERS\PEDRO\DOCUMENTS\GITHUB\FORGE_DEPENDENCIES\OGRE\SRC\FREETYPE-2.13.0\OBJS\CMAKEFILES\CA07C233B7D6F1491F0DEB4803728C5A\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

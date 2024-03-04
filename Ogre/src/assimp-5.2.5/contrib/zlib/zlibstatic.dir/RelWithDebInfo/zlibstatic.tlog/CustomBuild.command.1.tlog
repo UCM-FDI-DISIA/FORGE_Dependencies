@@ -1,0 +1,10 @@
+^C:\USERS\PEDRO\DOCUMENTS\GITHUB\FORGE_DEPENDENCIES\OGRE\SRC\ASSIMP-5.2.5\CONTRIB\ZLIB\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/assimp-5.2.5 -BC:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/assimp-5.2.5 --check-stamp-file C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/assimp-5.2.5/contrib/zlib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

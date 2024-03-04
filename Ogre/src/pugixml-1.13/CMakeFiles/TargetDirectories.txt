@@ -1,0 +1,9 @@
+C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/pugixml-1.13/CMakeFiles/Experimental.dir
+C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/pugixml-1.13/CMakeFiles/Nightly.dir
+C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/pugixml-1.13/CMakeFiles/Continuous.dir
+C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/pugixml-1.13/CMakeFiles/NightlyMemoryCheck.dir
+C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/pugixml-1.13/CMakeFiles/pugixml-static.dir
+C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/pugixml-1.13/CMakeFiles/RUN_TESTS.dir
+C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/pugixml-1.13/CMakeFiles/INSTALL.dir
+C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/pugixml-1.13/CMakeFiles/ALL_BUILD.dir
+C:/Users/pedro/Documents/GitHub/FORGE_Dependencies/Ogre/src/pugixml-1.13/CMakeFiles/ZERO_CHECK.dir
