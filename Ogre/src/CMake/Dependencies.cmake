@@ -126,24 +126,6 @@ if(OGRE_BUILD_DEPENDENCIES AND NOT EXISTS ${OGREDEPS_PATH})
     endif()
 
     if(MSVC OR MINGW OR SKBUILD) # other platforms dont need this
-        message(STATUS "Building SDL2")
-        file(DOWNLOAD
-            https://libsdl.org/release/SDL2-2.28.0.tar.gz
-            ${PROJECT_BINARY_DIR}/SDL2-2.28.0.tar.gz)
-        execute_process(COMMAND ${CMAKE_COMMAND} 
-            -E tar xf SDL2-2.28.0.tar.gz WORKING_DIRECTORY ${PROJECT_BINARY_DIR})
-        execute_process(COMMAND ${CMAKE_COMMAND}
-            -E make_directory ${PROJECT_BINARY_DIR}/SDL2-build)
-        execute_process(COMMAND ${BUILD_COMMAND_COMMON}
-            -DSDL_STATIC=FALSE
-            -DCMAKE_INSTALL_LIBDIR=lib
-            ${PROJECT_BINARY_DIR}/SDL2-2.28.0
-            WORKING_DIRECTORY ${PROJECT_BINARY_DIR}/SDL2-build)
-        execute_process(COMMAND ${CMAKE_COMMAND}
-            --build ${PROJECT_BINARY_DIR}/SDL2-build ${BUILD_COMMAND_OPTS})
-    endif()
-
-    if(MSVC OR MINGW OR SKBUILD) # other platforms dont need this
       message(STATUS "Building zlib") # only needed for Assimp
       file(DOWNLOAD
           https://github.com/madler/zlib/releases/download/v1.3/zlib-1.3.tar.gz
@@ -176,33 +158,6 @@ if(OGRE_BUILD_DEPENDENCIES AND NOT EXISTS ${OGREDEPS_PATH})
       execute_process(COMMAND ${CMAKE_COMMAND}
         --build ${PROJECT_BINARY_DIR}/assimp-5.2.5 ${BUILD_COMMAND_OPTS})
     endif()
-
-    message(STATUS "Building Bullet")
-    file(DOWNLOAD
-        https://github.com/bulletphysics/bullet3/archive/refs/tags/3.25.tar.gz
-        ${PROJECT_BINARY_DIR}/3.25.tar.gz)
-    execute_process(COMMAND ${CMAKE_COMMAND}
-        -E tar xf 3.25.tar.gz WORKING_DIRECTORY ${PROJECT_BINARY_DIR})
-    execute_process(COMMAND ${BUILD_COMMAND_COMMON}
-        -DBUILD_SHARED_LIBS=OFF
-        -DINSTALL_LIBS=ON
-        -DCMAKE_POSITION_INDEPENDENT_CODE=ON
-        -DUSE_MSVC_RUNTIME_LIBRARY_DLL=ON
-        -DBUILD_PYBULLET=OFF
-        -DUSE_DOUBLE_PRECISION=OFF
-        -DBUILD_CPU_DEMOS=OFF
-        -DBUILD_BULLET2_DEMOS=OFF
-        -DBUILD_EXTRAS=OFF
-        -DBUILD_EGL=OFF
-        -DBUILD_ENET=OFF
-        -DBUILD_UNIT_TESTS=OFF
-        -DCMAKE_RELWITHDEBINFO_POSTFIX= # fixes FindBullet on MSVC
-        -DBUILD_CLSOCKET=OFF
-        ${PROJECT_BINARY_DIR}/bullet3-3.25
-        WORKING_DIRECTORY ${PROJECT_BINARY_DIR}/bullet3-3.25)
-    execute_process(COMMAND ${CMAKE_COMMAND}
-        --build ${PROJECT_BINARY_DIR}/bullet3-3.25 ${BUILD_COMMAND_OPTS})
-    set(BULLET_ROOT ${OGREDEPS_PATH})
 endif()
 
 #######################################################################
