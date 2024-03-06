@@ -11,6 +11,10 @@ cd .\Lua\
 call %BAT%
 cd ..
 
+cd .\SDL2\
+call %BAT%
+cd ..
+
 cd .\Ogre\
 call %BAT%
 cd ..
