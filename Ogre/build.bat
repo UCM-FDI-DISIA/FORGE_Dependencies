@@ -11,7 +11,7 @@ msbuild %BUILDDIR%\OGRE.sln /p:configuration=Debug
 msbuild %BUILDDIR%\OGRE.sln /p:configuration=Release
 
 COPY /y %BUILDDIR%\bin\debug\Codec_STBI_d.dll %BINDIRECTION%
-COPY /y %BUILDDIR%\bin\debug\OgreMain_d.dll %BBINDIRECTIONIN%
+COPY /y %BUILDDIR%\bin\debug\OgreMain_d.dll %BINDIRECTION%
 COPY /y %BUILDDIR%\bin\debug\RenderSystem_Direct3D11_d.dll %BINDIRECTION%
 COPY /y %BUILDDIR%\bin\debug\zlib.dll %BINDIRECTION%
 COPY /y %BUILDDIR%\bin\debug\OgreRTShaderSystem_d.dll %BINDIRECTION%
