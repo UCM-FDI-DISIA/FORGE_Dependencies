@@ -33,3 +33,6 @@
 
 # Library build directories
 [Bb]uild/
+[Ll]ib/
+
+irr[Kk]lang/
