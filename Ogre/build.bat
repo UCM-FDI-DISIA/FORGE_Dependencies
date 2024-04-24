@@ -6,7 +6,7 @@ set BUILDDIR=.\build\x64
 set OGRESRC=.\src
 
 set BUILD=1
-set BUILDVER=1.0
+set BUILDVER=1.1
 
 ::Comprobar si Ogre ya estaba compilado y en la ultima version
 if exist buildver.forge (
