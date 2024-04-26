@@ -32,8 +32,8 @@ if !BUILD! equ 1 (
     :: CMAKE SDL
     cmake -S %SDLSRC% -B %BUILDDIR%
 
-    msbuild %BUILDDIR%\SDL2.sln /p:configuration=Debug
-    msbuild %BUILDDIR%\SDL2.sln /p:configuration=Release
+    msbuild %BUILDDIR%\SDL2.sln /p:configuration=Debug /p:Platform=x64
+    msbuild %BUILDDIR%\SDL2.sln /p:configuration=Release /p:Platform=x64
 
     COPY /y %BUILDDIR%\Debug\SDL2d.dll %BINDIRECTION%
     COPY /y %BUILDDIR%\Release\SDL2.dll %BINDIRECTION%
