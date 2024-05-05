@@ -4,7 +4,7 @@ SETLOCAL ENABLEDELAYEDEXPANSION
 set BUILDDIR=.\build\x64
 set BULLETSRC=.\src
 set BUILD=1
-set BUILDVER=1.1
+set BUILDVER=1.2
 
 ::Comprobar si Bullet ya estaba compilado y en la ultima version
 if exist buildver.forge (
