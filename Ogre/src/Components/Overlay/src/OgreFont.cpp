@@ -535,7 +535,7 @@ namespace Ogre
                 // Advance a column
                 if(width)
                     l += (width + char_spacer);
-#ifdef HAVE_FREETYPE
+#ifndef HAVE_FREETYPE
                 if (buffer != NULL)
                 {
                     STBTT_free(buffer, font.userdata);
